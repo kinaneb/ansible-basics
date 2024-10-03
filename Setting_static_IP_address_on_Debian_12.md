@@ -32,8 +32,8 @@ Look for the interface connected to your network (e.g., eth0, enp0s3, etc.).
 3. Enable and Restart systemd-networkd:
 
    ```sh
-   sudo systemctl enable network
-   sudo systemctl restart network
+   sudo systemctl enable networking
+   sudo systemctl restart networking
    ```
 
 4. Verify the Configuration:
